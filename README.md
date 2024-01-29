@@ -1,5 +1,8 @@
 # ML Algorithms
 
+## Overview
+This project trained and tested four different classification algorithms on two datasets. The algorithms were assessed and evaluated by presenting insights such as the confusion matrix, precision recall, and F1-Measure for each class, as well as, the accuracy, macro-average F1, and weighted average F1 of the models. 
+
 ## Prerequisites:
 Required modules:
 - matplotlib
