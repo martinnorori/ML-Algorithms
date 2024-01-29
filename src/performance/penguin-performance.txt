@@ -1,0 +1,176 @@
+(A) Base-DT Model
+(A) Hyperparameters:
+	criterion: gini
+	max_depth: None
+	min_samples_split: 2
+	random_state: None
+
+(B) Confusion Matrix:
+[[47  1  0]
+ [ 1 17  0]
+ [ 0  0 34]]
+
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.98      0.98      0.98        48
+   Chinstrap       0.94      0.94      0.94        18
+      Gentoo       1.00      1.00      1.00        34
+
+    accuracy                           0.98       100
+   macro avg       0.97      0.97      0.97       100
+weighted avg       0.98      0.98      0.98       100
+
+
+(D) Accuracy: 0.98
+(D) Macro-average F1: 0.9745370370370371
+(D) Weighted-average F1: 0.98
+
+**************************************************
+
+Base-DT Model
+Average Accuracy: 0.99
+Accuracy Variance: 0.0
+
+Average Macro-average F1: 0.987039764359352
+Macro-average F1 Variance: 0.0
+
+Average Weighted-average F1: 0.9899086892488954
+Weighted-average F1 Variance: 0.0
+
+
+**************************************************
+
+(A) Top-DT Model
+(A) Hyperparameters:
+	criterion: entropy
+	max_depth: 10
+	min_samples_split: 6
+	random_state: 0
+
+(B) Confusion Matrix:
+[[47  1  0]
+ [ 1 17  0]
+ [ 0  0 34]]
+
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.98      0.98      0.98        48
+   Chinstrap       0.94      0.94      0.94        18
+      Gentoo       1.00      1.00      1.00        34
+
+    accuracy                           0.98       100
+   macro avg       0.97      0.97      0.97       100
+weighted avg       0.98      0.98      0.98       100
+
+
+(D) Accuracy: 0.98
+(D) Macro-average F1: 0.9745370370370371
+(D) Weighted-average F1: 0.98
+
+**************************************************
+
+Top-DT Model
+Average Accuracy: 0.98
+Accuracy Variance: 0.0
+
+Average Macro-average F1: 0.9745370370370371
+Macro-average F1 Variance: 0.0
+
+Average Weighted-average F1: 0.98
+Weighted-average F1 Variance: 0.0
+
+
+**************************************************
+
+(A) Base-MLP Model
+(A) Hyperparameters:
+	activation: logistic
+	hidden_layer_sizes: (100, 100)
+	learning_rate: constant
+	max_iter: 10000
+	solver: sgd
+	random_state: 0
+
+(B) Confusion Matrix:
+[[48  0  0]
+ [18  0  0]
+ [34  0  0]]
+
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.48      1.00      0.65        48
+   Chinstrap       0.00      0.00      0.00        18
+      Gentoo       0.00      0.00      0.00        34
+
+    accuracy                           0.48       100
+   macro avg       0.16      0.33      0.22       100
+weighted avg       0.23      0.48      0.31       100
+
+
+(D) Accuracy: 0.48
+(D) Macro-average F1: 0.21621621621621623
+(D) Weighted-average F1: 0.3113513513513514
+
+**************************************************
+
+Base-MLP Model
+Average Accuracy: 0.48
+Accuracy Variance: 0.0
+
+Average Macro-average F1: 0.21621621621621623
+Macro-average F1 Variance: 0.0
+
+Average Weighted-average F1: 0.3113513513513514
+Weighted-average F1 Variance: 0.0
+
+
+**************************************************
+
+(A) Top-MLP Model
+(A) Hyperparameters:
+	activation: logistic
+	hidden_layer_sizes: (500, 500)
+	learning_rate: constant
+	max_iter: 10000
+	solver: adam
+	random_state: 0
+
+(B) Confusion Matrix:
+[[39  3  6]
+ [12  6  0]
+ [ 1  0 33]]
+
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.75      0.81      0.78        48
+   Chinstrap       0.67      0.33      0.44        18
+      Gentoo       0.85      0.97      0.90        34
+
+    accuracy                           0.78       100
+   macro avg       0.75      0.71      0.71       100
+weighted avg       0.77      0.78      0.76       100
+
+
+(D) Accuracy: 0.78
+(D) Macro-average F1: 0.7095180111618468
+(D) Weighted-average F1: 0.7617972602739725
+
+**************************************************
+
+Top-MLP Model
+Average Accuracy: 0.78
+Accuracy Variance: 0.0
+
+Average Macro-average F1: 0.7095180111618468
+Macro-average F1 Variance: 0.0
+
+Average Weighted-average F1: 0.7617972602739725
+Weighted-average F1 Variance: 0.0
+
+
+**************************************************
+

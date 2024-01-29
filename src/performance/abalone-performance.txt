@@ -1,0 +1,176 @@
+(A) Base-DT Model
+(A) Hyperparameters:
+	criterion: gini
+	max_depth: None
+	min_samples_split: 2
+	random_state: None
+
+(B) Confusion Matrix:
+[[107  35 127]
+ [ 47 169  61]
+ [116  44 130]]
+
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.40      0.40      0.40       269
+           I       0.68      0.61      0.64       277
+           M       0.41      0.45      0.43       290
+
+    accuracy                           0.49       836
+   macro avg       0.50      0.49      0.49       836
+weighted avg       0.50      0.49      0.49       836
+
+
+(D) Accuracy: 0.48564593301435405
+(D) Macro-average F1: 0.4894908808818583
+(D) Weighted-average F1: 0.48941373232061075
+
+**************************************************
+
+Base-DT Model
+Average Accuracy: 0.4916267942583732
+Accuracy Variance: 0.0
+
+Average Macro-average F1: 0.4937348347747211
+Macro-average F1 Variance: 0.0
+
+Average Weighted-average F1: 0.49403009362231803
+Weighted-average F1 Variance: 0.0
+
+
+**************************************************
+
+(A) Base-DT Model
+(A) Hyperparameters:
+	criterion: gini
+	max_depth: None
+	min_samples_split: 2
+	random_state: None
+
+(B) Confusion Matrix:
+[[105  31 133]
+ [ 39 170  68]
+ [116  45 129]]
+
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.40      0.39      0.40       269
+           I       0.69      0.61      0.65       277
+           M       0.39      0.44      0.42       290
+
+    accuracy                           0.48       836
+   macro avg       0.50      0.48      0.49       836
+weighted avg       0.49      0.48      0.49       836
+
+
+(D) Accuracy: 0.48325358851674644
+(D) Macro-average F1: 0.48773335329444417
+(D) Weighted-average F1: 0.4874883858904204
+
+**************************************************
+
+Top-DT Model
+Average Accuracy: 0.49282296650717705
+Accuracy Variance: 0.0
+
+Average Macro-average F1: 0.49581291831290414
+Macro-average F1 Variance: 0.0
+
+Average Weighted-average F1: 0.49583656930728237
+Weighted-average F1 Variance: 0.0
+
+
+**************************************************
+
+(A) Base-MLP Model
+(A) Hyperparameters:
+	activation: logistic
+	hidden_layer_sizes: (100, 100)
+	learning_rate: constant
+	max_iter: 10000
+	solver: sgd
+	random_state: 0
+
+(B) Confusion Matrix:
+[[ 49  32 188]
+ [  6 203  68]
+ [ 56  51 183]]
+
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.44      0.18      0.26       269
+           I       0.71      0.73      0.72       277
+           M       0.42      0.63      0.50       290
+
+    accuracy                           0.52       836
+   macro avg       0.52      0.52      0.49       836
+weighted avg       0.52      0.52      0.50       836
+
+
+(D) Accuracy: 0.5203349282296651
+(D) Macro-average F1: 0.4936963724429231
+(D) Weighted-average F1: 0.49608286671833207
+
+**************************************************
+
+Base-MLP Model
+Average Accuracy: 0.5203349282296651
+Accuracy Variance: 0.0
+
+Average Macro-average F1: 0.4936963724429231
+Macro-average F1 Variance: 0.0
+
+Average Weighted-average F1: 0.49608286671833207
+Weighted-average F1 Variance: 0.0
+
+
+**************************************************
+
+(A) Top-MLP Model
+(A) Hyperparameters:
+	activation: tanh
+	hidden_layer_sizes: (10, 10, 10)
+	learning_rate: constant
+	max_iter: 2000
+	solver: adam
+	random_state: 0
+
+(B) Confusion Matrix:
+[[ 95  29 145]
+ [ 16 215  46]
+ [109  51 130]]
+
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.43      0.35      0.39       269
+           I       0.73      0.78      0.75       277
+           M       0.40      0.45      0.43       290
+
+    accuracy                           0.53       836
+   macro avg       0.52      0.53      0.52       836
+weighted avg       0.52      0.53      0.52       836
+
+
+(D) Accuracy: 0.5263157894736842
+(D) Macro-average F1: 0.5219427413005275
+(D) Weighted-average F1: 0.5217200340386097
+
+**************************************************
+
+Top-MLP Model
+Average Accuracy: 0.5263157894736842
+Accuracy Variance: 0.0
+
+Average Macro-average F1: 0.5219427413005275
+Macro-average F1 Variance: 0.0
+
+Average Weighted-average F1: 0.5217200340386097
+Weighted-average F1 Variance: 0.0
+
+
+**************************************************
+
